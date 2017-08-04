@@ -48,7 +48,7 @@ define(function (require, exports, module) {
               notification.error('yakışmadı');
             }
           }
-        }).bind(this));
+        }).bind(this), {ok: 'böyle olsun', cancel: 'kalsın o halde'});
       }
     },
 
